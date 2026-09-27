@@ -9,5 +9,8 @@ public class customer {
         total_amount = t;
         interest_rate = ir;
     }
-
+    public void savings_interest(){
+        interest = deposit * interest_rate/100;
+        total_amount = deposit + interest;
+    }
 }

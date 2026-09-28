@@ -8,5 +8,7 @@ double depositasdouble = (double) deposit;
 System.out.println("deposit as double "+ depositasdouble);
 String interestasstring = Double.toString(acc.interest);
         System.out.println("interest as string "+ interestasstring);
+        System.out.println("Summary report");
+        acc.report();
     }
 }
